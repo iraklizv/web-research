@@ -113,9 +113,9 @@ Unless told otherwise, assume the content is for a B2B audience: sales teams, SD
 
 **Priority order:**
 
-1. **Tier 1 — named B2B research sources**: LinkedIn, Gartner, Forrester, HubSpot, Salesforce, McKinsey. These are the sources Expandi's audience recognizes and trusts.
+1. **Tier 1 — named B2B research sources**: LinkedIn, Gartner, Forrester, HubSpot, Salesforce, McKinsey. These are the sources a B2B audience recognizes and trusts.
 
-   **Tier 1b — data-rich sources with a competitor wrinkle**: Apollo, ZoomInfo, Outreach, Salesloft publish useful B2B data. **Apollo is on the Expandi bible's §15 do-not-link list — never link it.** Use Apollo data only via the upstream sources its reports cite: fetch the Apollo page, find what it cites, link that. ZoomInfo, Outreach, and Salesloft are NOT on the do-not-link list — citable and linkable, subject to the page-level keyword-competitor check (Competitor Source Exclusion Rule below).
+   **Tier 1b — data-rich sources with a competitor wrinkle**: Apollo, ZoomInfo, Outreach, Salesloft publish useful B2B data. **If a source is on your client's do-not-link (competitor) list, never link it.** Use that data only via the upstream sources its reports cite: fetch the page, find what it cites, link that. Sources not on the list are citable and linkable, subject to the page-level keyword-competitor check (Competitor Source Exclusion Rule below).
 2. **Official brand/product pages**: linkedin.com/help, product documentation, official announcements from the brand being discussed
 
    **LinkedIn URL rule**: linkedin.com/help pages move or 404 frequently. Always run `web_fetch` on any LinkedIn URL before including it — do not assume it's live based on search snippet alone. If the page is dead, search for the current equivalent using the topic + site:linkedin.com/help.
@@ -184,7 +184,7 @@ When researching for SEO content:
 3. Instead: fetch that competitor page, identify what *they're* linking to (their primary sources), and use those upstream sources instead
 4. If Claude suspects a source might be a competitor and isn't sure, flag it: state the URL, why it might be a conflict, and what Claude recommends
 
-**Example**: Writing a LinkedIn automation article for Expandi. A strong data point appears on a MeetAlfred blog post. Don't link MeetAlfred. Check what MeetAlfred linked to — if it's a LinkedIn official announcement or a study, link that instead.
+**Example**: Writing a LinkedIn automation article for a LinkedIn automation client. A strong data point appears on a MeetAlfred blog post. Don't link MeetAlfred. Check what MeetAlfred linked to — if it's a LinkedIn official announcement or a study, link that instead.
 
 ---
 
